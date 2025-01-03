@@ -1,0 +1,20 @@
+{
+    "Waelyn Pictures": {
+        "Name": "Waelyn Pictures",
+        "Price": "$2,000,000",
+        "Creation Date": "10/6/2024",
+        "Sold Date": "Not Sold Yet",
+        "Customer Name": "Robin Popp",
+        "Customer Address": "2397 SE 37th Ave Trenton FL, 32693",
+        "Customer Email": "robinpopp@yahoo.com",
+        "Customer Phone": "352-222-0747",
+        "Type": "Assemblage",
+        "Images": [
+            "Cass's art1.jpg",
+            "Cass's art2.jpg",
+            "Cass's art3.jpg",
+            "Cass's art4.jpg"
+        ],
+        "Notes": "This baby is the cutest baby in the world and is priceless!\n"
+    }
+}
