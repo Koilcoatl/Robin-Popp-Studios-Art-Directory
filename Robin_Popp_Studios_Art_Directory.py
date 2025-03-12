@@ -4,6 +4,7 @@ from tkinter import filedialog
 from tkinter import messagebox
 import json
 import os
+import sys
 from PIL import Image, ImageTk
 
 ###TODO: add a scroll bar to images added to image frame
@@ -11,6 +12,13 @@ from PIL import Image, ImageTk
 ###TODO: Scrollbar on directory
 ###TODO: Add scrollbar to miniset in image frame
 
+
+if getattr(sys, 'frozen', False):
+    application_path = os.path.dirname(sys.executable)
+elif __file__:
+    application_path = os.path.dirname(__file__)
+
+os.chdir(application_path)
 
 def save_local(tuple, img_name, new_list):
     if tuple != ():
